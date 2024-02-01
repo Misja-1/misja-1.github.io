@@ -1,0 +1,25 @@
+body {
+    margin: 0 0 0 0;
+}
+#top {
+    border-bottom: 2px solid rgb(156, 156, 156);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.411);
+}   
+#icon {
+    width: 30px;
+    margin: 10px 0px 8px 10px;
+}
+#toptitle {
+    display: inline-block;
+    margin: 16px 0 0 10px;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    font-size: 20;
+    color: rgb(51, 51, 51);
+}
+#rightside {
+    width: 200px;
+    height: calc(100vh - 54px);
+    border-right: 2px solid rgb(156, 156, 156);
+}
