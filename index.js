@@ -11,9 +11,9 @@ function funcDark() {
     top.classList.add('darkTop');
     top.classList.remove('lightTop');
 
-    document.getElementById("icon").src="images/darkIcon.png";
+    document.getElementById("icon").src="darkIcon.png";
 
-    document.getElementById("faviconLink").href="images/darkFavicon.png";
+    document.getElementById("faviconLink").href="darkFavicon.png";
 
     const title = document.querySelector('.lightTitle');
     title.classList.add('darkTitle');
@@ -24,7 +24,7 @@ function funcDark() {
     button.classList.remove('lightButton');
     buttonDarkmodeText.innerHTML = "MOON";
 
-    document.getElementById("light-darkmode").src="images/darkmode.png";
+    document.getElementById("light-darkmode").src="darkmode.png";
     const modepng = document.querySelector('.lightmodepng');
     modepng.classList.add('darkmodepng');
     modepng.classList.remove('lightmodepng');
@@ -47,9 +47,9 @@ function funcDark() {
     top.classList.add('lightTop');
     top.classList.remove('darkTop');
 
-    document.getElementById("icon").src="images/lightIcon.png";
+    document.getElementById("icon").src="lightIcon.png";
 
-    document.getElementById("faviconLink").href="images/lightFavicon.png";
+    document.getElementById("faviconLink").href="lightFavicon.png";
 
     const title = document.querySelector('.darkTitle');
     title.classList.add('lightTitle');
@@ -60,7 +60,7 @@ function funcDark() {
     button.classList.remove('darkButton');
     button.innerHTML = "SUN";
 
-    document.getElementById("light-darkmode").src="images/lightmode.png";
+    document.getElementById("light-darkmode").src="lightmode.png";
     const modepng = document.querySelector('.darkmodepng');
     modepng.classList.add('lightmodepng');
     modepng.classList.remove('darkmodepng');
